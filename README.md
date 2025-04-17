@@ -7,10 +7,14 @@ bundeld to a package
 
 ## Content
 ### 3ma to obj file converter
+to convert these 3ma which literally no programm can open 
 ### delete all files in a folder
-### start a simple HTTP Server
+If you created a big files mess :)
+### simple HTTP Server
+to start a simple HTTP server fr HTML website develepment
 ### write the edittime to the start of the file name
 - *Format:* yyyy.mm.dd
+This is very useful for organisizing your files
 
 ## Credits
 
