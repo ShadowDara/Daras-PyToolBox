@@ -3,14 +3,13 @@
 import os, sys
 
 # import scripts here
-from app import select_folder, delete_step_by_step, convert_3ma_to_obj, simple_http_server, info, shadow_path_2_0, styles
-from test import list
+import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.shadow_path_2_0, app.styles
 
 # main function
 def main():
     path = os.path.dirname(os.path.abspath(__file__))
     while True:
-        choice = input("Type info for more Infos: ---> ").lower()
+        print("Type info for more Infos")
         print("""
 Command List:
 
@@ -19,27 +18,26 @@ Command List:
 2   to convert 3ma to obj files
 3   to start a simple HTTP Server
 """)
-        choice = input("Select: ")
+        choice = input("Select: ").lower()
         if choice == '1':
-            folder = select_folder.get_folder()
-            delete_step_by_step.delete_step_by_step(folder)
+            folder = app.select_folder.get_folder()
+            app.delete_step_by_step.delete_step_by_step(folder)
         elif choice == '2':
-            folder = select_folder.get_folder()
-            convert_3ma_to_obj.find_files(folder)
+            folder = app.select_folder.get_folder()
+            app.convert_3ma_to_obj.find_files(folder)
         elif choice == '3':
-            simple_http_server.main(folder)
+            folder = app.select_folder.get_folder()
+            app.simple_http_server.main(folder)
         elif choice == '0' or choice == 'exit 0':
             sys.exit(0)
         elif choice == 'info':
-            info.main()
+            app.info.main()
         elif choice == 'license':
-            info.license()
+            app.info.license()
         elif choice == 'game':
-            shadow_path_2_0.start_game()
-        elif choice =='c':
-            list.main()
+            app.shadow_path_2_0.start_game()
 
 # run on execution
 if __name__ == '__main__':
-    styles.p_magenta("PyToolBox by Shadowdara\n")
+    app.styles.p_magenta("PyToolBox by Shadowdara\n")
     main()
