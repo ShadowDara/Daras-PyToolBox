@@ -1,19 +1,14 @@
 # Python Toolbox
  
-## Commands
+This is my Python Toolbox, a collection of Python scripts,
+bundeld to a package
 
-### Index
-
-- 0
-- exit 0
-- info
-- license
-
-### Exit
-
-### Info
-
-### License
+## Content
+### 3ma to obj file converter
+### delete all files in a folder
+### start a simple HTTP Server
+### write the edittime to the start of the file name
+- *Format:* yyyy.mm.dd
 
 ## Credits
 
