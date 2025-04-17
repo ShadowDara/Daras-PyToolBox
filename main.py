@@ -10,6 +10,8 @@ import app.delete_step_by_step
 
 import app.select_folder
 
+import app.simple_http_server
+
 # main function
 def main():
     while True:
