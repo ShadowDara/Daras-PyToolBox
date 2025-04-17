@@ -10,7 +10,7 @@ import app.info
 #import app.qr_code
 import app.select_folder
 import app.settings
-#import app.shadow_path_2_0
+import app.shadow_path_2_0
 import app.simple_http_server
 import app.styles
 
@@ -26,6 +26,8 @@ def main():
             app.info.main()
         elif choice == 'license':
             app.info.license()
+        elif choice == 'game':
+            app.shadow_path_2_0.start_game()
 
         # to check if the config file is available
         elif choice == '1':
