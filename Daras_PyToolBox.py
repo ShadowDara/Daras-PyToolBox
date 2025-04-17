@@ -1,13 +1,12 @@
 # Python Toolbox by Shadowdara
 
-import os, sys
+import sys
 
 # import scripts here
 import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.shadow_path_2_0, app.styles, app.edittime_to_filename
 
 # main function
 def main():
-    path = os.path.dirname(os.path.abspath(__file__))
     while True:
         print("Type info for more Infos or license or game")
         print("""
@@ -43,5 +42,5 @@ Command List:
 
 # run on execution
 if __name__ == '__main__':
-    app.styles.p_magenta("PyToolBox by Shadowdara\n")
+    print("PyToolBox by Shadowdara\n")
     main()
