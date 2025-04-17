@@ -10,7 +10,7 @@ to reinstall requirements:
 ->  pip install -r requirements.txt
 
 to package the app:
-->  pyinstaller --onefile --icon=data/Icon.jpeg --add-data "LICENSE;." Daras_PyToolBox.py
+->  pyinstaller --onefile --icon=data/Icon.jpeg --add-data "LICENSE;." --add-data "README.md;." --add-data "docs/Credits.md;." Daras_PyToolBox.py
 
 if not installed:
 ->  pip install pyinstaller

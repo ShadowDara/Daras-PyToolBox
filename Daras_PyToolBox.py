@@ -7,10 +7,10 @@ import sys
 import app.convert_3ma_to_obj
 import app.delete_step_by_step
 import app.info
-import app.qr_code
+#import app.qr_code
 import app.select_folder
 import app.settings
-import app.shadow_path_2_0
+#import app.shadow_path_2_0
 import app.simple_http_server
 import app.styles
 
@@ -24,6 +24,8 @@ def main():
             sys.exit(0)
         elif choice == 'info':
             app.info.main()
+        elif choice == 'license':
+            app.info.license()
 
         # to check if the config file is available
         elif choice == '1':
