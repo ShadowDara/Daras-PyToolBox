@@ -1,0 +1,12 @@
+Dev Infos
+
+start-app.bat is to start the programm correctly
+
+to save requirements to file:
+pip freeze > requirements.txt
+
+to reinstall requirements:
+pip install -r requirements.txt
+
+to package the app:
+pyinstaller --onefile main.py

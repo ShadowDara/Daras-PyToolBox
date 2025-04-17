@@ -1,6 +1,5 @@
 # Python Toolbox by Shadowdara
 
-import os
 import sys
 
 # import scripts
