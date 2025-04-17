@@ -7,6 +7,7 @@ import sys
 import app.convert_3ma_to_obj
 import app.delete_step_by_step
 import app.game
+import app.info
 import app.select_folder
 import app.settings
 import app.simple_http_server
@@ -20,6 +21,8 @@ def main():
 
         if choice == '0' or choice == 'exit 0':
             sys.exit(0)
+        elif choice == 'info':
+            app.info.main()
 
         # to check if the config file is available
         elif choice == '1':
