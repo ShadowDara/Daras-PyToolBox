@@ -11,7 +11,7 @@ import app.select_folder
 # main function
 def main():
     while True:
-        choice = input("info for more Infos: ->").lower()
+        choice = input("Type info for more Infos: ---> ").lower()
 
         if choice == '0' or choice == 'exit 0':
             sys.exit(1)
