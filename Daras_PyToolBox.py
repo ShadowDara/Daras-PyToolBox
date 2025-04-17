@@ -3,7 +3,7 @@
 import os, sys
 
 # import scripts here
-import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.shadow_path_2_0, app.styles
+import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.shadow_path_2_0, app.styles, app.edittime_to_filename
 
 # main function
 def main():
@@ -17,6 +17,7 @@ Command List:
 1   to delete all files in a selected Folder
 2   to convert 3ma to obj files
 3   to start a simple HTTP Server
+4   to add the file edittime to the filename
 """)
         choice = input("Select: ").lower()
         if choice == '1':
@@ -28,6 +29,9 @@ Command List:
         elif choice == '3':
             folder = app.select_folder.get_folder()
             app.simple_http_server.main(folder)
+        elif choice == '4':
+            folder = app.select_folder.get_folder()
+            app.edittime_to_filename.main(folder)
         elif choice == '0' or choice == 'exit 0':
             sys.exit(0)
         elif choice == 'info':
