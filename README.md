@@ -3,6 +3,8 @@
 This is my Python Toolbox, a collection of Python scripts,
 bundeld to a package
 
+## [Download here](https://github.com/ShadowDara/Daras-PyToolBox/releases/tag/Release)
+
 ## Content
 ### 3ma to obj file converter
 ### delete all files in a folder
@@ -11,6 +13,10 @@ bundeld to a package
 - *Format:* yyyy.mm.dd
 
 ## Credits
+
+### LICENSE
+
+**MIT: Shadowdara**
 
 Credits to everything i used for this Python Programm
 
