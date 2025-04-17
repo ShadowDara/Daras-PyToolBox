@@ -10,4 +10,4 @@ to reinstall requirements:
 ->  pip install -r requirements.txt
 
 to package the app:
-->  pyinstaller --onefile main.py
+->  pyinstaller --onefile Daras_PyToolBox.py
