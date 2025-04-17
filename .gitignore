@@ -1,2 +1,8 @@
+# for python
 __pycache__
+build/
+dist/
+*.spec
+
+# for testing
 test/

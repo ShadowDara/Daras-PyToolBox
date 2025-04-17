@@ -6,9 +6,11 @@ import sys
 # import scripts
 import app.convert_3ma_to_obj
 import app.delete_step_by_step
+import app.game
 import app.select_folder
 import app.settings
 import app.simple_http_server
+import app.styles
 
 # main function
 def main():
