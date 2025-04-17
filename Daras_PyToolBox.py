@@ -7,6 +7,7 @@ import sys
 import app.convert_3ma_to_obj
 import app.delete_step_by_step
 import app.info
+import app.qr_code
 import app.select_folder
 import app.settings
 import app.shadow_path_2_0
