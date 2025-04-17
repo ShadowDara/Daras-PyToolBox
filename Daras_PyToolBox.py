@@ -9,11 +9,11 @@ import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.s
 def main():
     path = os.path.dirname(os.path.abspath(__file__))
     while True:
-        print("Type info for more Infos")
+        print("Type info for more Infos or license or game")
         print("""
 Command List:
 
-0   return 
+0   to exit
 1   to delete all files in a selected Folder
 2   to convert 3ma to obj files
 3   to start a simple HTTP Server
