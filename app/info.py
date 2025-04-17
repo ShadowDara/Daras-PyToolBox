@@ -151,25 +151,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """)
-    choice = input("Do you want to see more? [y/n]: ")
-    if choice == 'y':
-        license6()
-
-def license6():
-    print("""""")
-    choice = input("Do you want to see more? [y/n]: ")
-    if choice == 'y':
-        license7()
-
-def license7():
-    print("""""")
-    choice = input("Do you want to see more? [y/n]: ")
-    if choice == 'y':
-        license8()
-
-def license8():
-    print("""""")
     choice = input("Back to home... ")
 
 def main():
-    print("Infos")
+    print("\nInfos\n")
