@@ -29,4 +29,5 @@ SOFTWARE.
 
 def main():
     print("\nMore Infos\n\nhttps://github.com/ShadowDara/Daras-PyToolBox-rwhiokndhoewpknwepiwdn\n")
-    input("...\n")
+    input("...")
+    print()
