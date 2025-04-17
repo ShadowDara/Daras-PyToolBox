@@ -28,4 +28,5 @@ SOFTWARE.
     input("Back to home... ")
 
 def main():
-    print("\nInfos\n")
+    print("\nMore Infos\n\nhttps://github.com/ShadowDara/Daras-PyToolBox-rwhiokndhoewpknwepiwdn\n")
+    input("...\n")
