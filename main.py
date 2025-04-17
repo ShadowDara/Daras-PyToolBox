@@ -1,14 +1,23 @@
+# Python Toolbox by Shadowdara
+
 import os
+import sys
 
 # import scripts
+import app.delete_step_by_step
+
 import app.select_folder
 
-def start():
+# main function
+def main():
     while True:
-        pass
+        choice = input("info for more Infos: ->").lower()
+
+        if choice == '0' or choice == 'exit 0':
+            sys.exit(1)
 
 # run on execution
 if __name__ == '__main__':
     print("PyToolBox by Shadowdara\n")
 
-    start()
+    main()
