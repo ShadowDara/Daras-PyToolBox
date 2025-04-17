@@ -4,6 +4,8 @@ import os
 import sys
 
 # import scripts
+import app.convert_3ma_to_obj
+
 import app.delete_step_by_step
 
 import app.select_folder
