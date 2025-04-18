@@ -30,6 +30,11 @@ to start a simple HTTP server fr HTML website develepment
 
 This is very useful for organisizing your files
 
+### Open Repositorys with GH Desktop
+
+- select the folder and then the script will open all the Repositorys in the
+folder in Github Desktop.
+
 ## Credits
 
 ### LICENSE
@@ -38,7 +43,7 @@ This is very useful for organisizing your files
 
 Credits to everything i used for this Python Programm
 
-https://github.com/weuritz8u/3ma-to-obj-converter-python
-https://github.com/shadowdara/delete-ALL-files
-https://github.com/weuritz8u/local-HTTP-server
-https://github.com/ShadowDara/Shadow-Paths
+- https://github.com/weuritz8u/3ma-to-obj-converter-python
+- https://github.com/shadowdara/delete-ALL-files
+- https://github.com/weuritz8u/local-HTTP-server
+- https://github.com/ShadowDara/Shadow-Paths
