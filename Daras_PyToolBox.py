@@ -3,12 +3,12 @@
 import sys
 
 # import scripts here
-import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.shadow_path_2_0, app.styles, app.edittime_to_filename
+import app.select_folder, app.delete_step_by_step, app.convert_3ma_to_obj, app.simple_http_server, app.info, app.open_in_ghdesktop, app.shadow_path_2_0, app.edittime_to_filename
 
 # main function
 def main():
     while True:
-        print("Type info for more Infos or license or game")
+        print("\nType info for more Infos or license or game")
         print("""
 Command List:
 
@@ -17,8 +17,10 @@ Command List:
 2   to convert 3ma to obj files
 3   to start a simple HTTP Server
 4   to add the file edittime to the filename
+5   to open all Repositorys in a Folder in Github Desktop
 """)
         choice = input("Select: ").lower()
+        print()
         if choice == '1':
             folder = app.select_folder.get_folder()
             app.delete_step_by_step.delete_step_by_step(folder)
@@ -31,6 +33,9 @@ Command List:
         elif choice == '4':
             folder = app.select_folder.get_folder()
             app.edittime_to_filename.main(folder)
+        elif choice == '5':
+            folder = app.select_folder.get_folder()
+            app.open_in_ghdesktop.main(folder)
         elif choice == '0' or choice == 'exit 0':
             sys.exit(0)
         elif choice == 'info':
@@ -42,5 +47,5 @@ Command List:
 
 # run on execution
 if __name__ == '__main__':
-    print("PyToolBox by Shadowdara\n")
+    print("PyToolBox by Shadowdara")
     main()

@@ -11,6 +11,7 @@ to reinstall requirements:
 
 to package the app:
 ->  pyinstaller --onefile --icon=data/Icon.jpeg Daras_PyToolBox.py
+->  pyinstaller --onefile uninstall.py
 
 if not installed:
 ->  pip install pyinstaller
