@@ -1,3 +1,5 @@
+import os
+
 import http.server
 import socketserver
 
@@ -8,6 +10,7 @@ def is_port_in_use(port):
         return s.connect_ex(("127.0.0.1", port)) == 0
 
 def start_server(PORT, folder_path):
+    os.chdir(folder_path)
     Handler = http.server.SimpleHTTPRequestHandler
 
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
